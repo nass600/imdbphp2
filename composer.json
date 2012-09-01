@@ -1,0 +1,19 @@
+{
+    "name": "nass600/imdbphp2",
+    "type": "php-library",
+    "description": "PHP library for retrieving info from IMDB",
+    "keywords": ["php", "imdb"],
+    "homepage": "https://github.com/nass600/imdbphp2",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Andreas Itzchak Rehberg"
+        }
+    ],
+    "require": {
+        "php":                       ">=5.3.2"
+    },
+    "autoload": {
+        "files": ["imdb.class.php"]
+    }
+}
